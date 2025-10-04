@@ -41,8 +41,12 @@ app.use("/api/application", applicationRoutes);
 // defining ports
 const PORT = process.env.PORT || 3000;
 
+
+
+
+connectDB();
+
 // server starting here
 app.listen(PORT, () => {
     console.log(`SERVER is Running on http://localhost:${PORT}`);
-    connectDB();
 });

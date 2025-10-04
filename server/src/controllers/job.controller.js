@@ -7,8 +7,8 @@ export const getAllJobs = async (req, res) => {
         res.status(200).json({ alljobs });
 
     } catch (error) {
+        console.log("Error in getting all jobs controller::",error)
         res.status(500).json({ message: "Internal Server Error" });
-        throw new Error("Error in getting all jobs controller :: ", error.message);
     }
 }
 
