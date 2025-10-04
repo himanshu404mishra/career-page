@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import JobPost from "../components/JobPost";
-import Testimonial from "../components/testimonial";
+import Testimonial from "../components/Testimonial";
 import Footer from "../components/Footer";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
