@@ -1,0 +1,7 @@
+import axios from "axios";
+
+
+export const axiosInstance = axios.create({
+    baseURL:"http://localhost:4200/api",
+    withCredentials: true
+})
