@@ -27,7 +27,7 @@ app.use(cookieParser());
 // for CORS
 app.use(
     cors({
-        origin: "http://localhost:5173",
+        origin: ["http://localhost:5173","https://career-page-21ju.vercel.app"],
         credentials: true,
     })
 );
